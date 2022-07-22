@@ -21,13 +21,13 @@ const itemsSchema = {
 const Item = mongoose.model("Item", itemsSchema);
 
 const item1 = new Item({
-  name: "The first item of hte great todo list."
+  name: "The first item of the todo list."
 });
 const item2 = new Item({
-  name: "This list is great because it will be working with our own database."
+  name: "Click the checkBox for deleting a task."
 });
 const item3 = new Item({
-  name: "Data will not be lost on refreshing."
+  name: "Click on the (+) button for adding new tasks."
 });
 defaultItems = [item1, item2, item3];
 
